@@ -302,9 +302,10 @@ img {
 }
 
 #comments-container {
+    padding: 5px;
     display: flex;
     flex-direction: row-reverse;
-
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding: 5px;
@@ -318,14 +319,33 @@ img {
     margin-right: 60px;
 }
 
-#nazarat-mardom-titr{
+.nazarat-mardom-titr{
     margin-right: 60px;
     direction: rtl;
     text-align: right;
     margin-right: 60px;
 }
 
+#right-comment-container{
+    width: 50%;
+}
+
+#right-comment-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#nazarate-mardom-container{
+    margin-right:0px ;
+}
+
+#right-comment-text{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
 #left-comment-container{
+    width: 50%;
     display: flex;
     flex-direction: column;
   background-color: #e5f2fe;
@@ -334,6 +354,7 @@ img {
     border: 1px solid #1780df;
     border-radius: 20px;
     height: 370px;
+    margin-left: 10px;
 }
 
 #left-comment-paragraph{
@@ -347,13 +368,40 @@ img {
 }
 
 #comment-lower-left-container{
+    display: flex;
+    flex-direction: row-reverse;
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom-right-radius:20px;
     border-bottom-left-radius:20px;
     border-top-style: dashed;
     height: 30%;
-    background-color: red;
+    width: 100%;
+    background-color: #e5f2fe;
+    border-top-width: 1px;
     margin-top: auto;
+}
+
+#comment-bottom-picture-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 20%;
+}
+
+#comment-image{
+    border-radius: 50%;
+    height: 80%;
+
+
+}
+
+#doctor-description-container{
+    display: flex;
+    flex-direction: column;
+
+
 }
 
