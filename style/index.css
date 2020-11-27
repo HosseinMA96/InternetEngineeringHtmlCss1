@@ -317,6 +317,7 @@ img {
     direction: rtl;
     text-align: right;
     margin-right: 60px;
+    font-family: 'Vazir', sans-serif;
 }
 
 .nazarat-mardom-titr{
@@ -324,6 +325,7 @@ img {
     direction: rtl;
     text-align: right;
     margin-right: 60px;
+    font-family: 'Vazir', sans-serif;
 }
 
 #right-comment-container{
@@ -357,6 +359,11 @@ img {
     margin-left: 10px;
 }
 
+#doctor-name-comment{
+    font-family: 'Vazir', sans-serif;
+    font-weight: bold;
+}
+
 #left-comment-paragraph{
 
     text-align: right;
@@ -365,13 +372,13 @@ img {
     font-family: 'Vazir', sans-serif;
     font-size: 20px;
     margin-bottom: auto;
+    font-family: 'Vazir', sans-serif;
 }
 
 #comment-lower-left-container{
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding-left: 0px;
     border-bottom-right-radius:20px;
     border-bottom-left-radius:20px;
     border-top-style: dashed;
@@ -401,7 +408,31 @@ img {
 #doctor-description-container{
     display: flex;
     flex-direction: column;
-
+    justify-content: right;
+    align-items: self-start;
 
 }
+
+#doctor-field-comment{
+    padding-right:10px;
+}
+
+#sayere-nazarat-botton{
+    background-color: #fb815e;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+
+}
+
+#sayere-nazarat-container{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
 
