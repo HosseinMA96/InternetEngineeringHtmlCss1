@@ -313,11 +313,16 @@ img {
 
 
 
-#nazarat-mardom-text {
+.nazarat-mardom-text {
     direction: rtl;
     text-align: right;
     margin-right: 60px;
     font-family: 'Vazir', sans-serif;
+}
+
+#please{
+    display: flex;
+    flex-direction: column;
 }
 
 .nazarat-mardom-titr{
@@ -335,6 +340,7 @@ img {
 #right-comment-text-container{
     display: flex;
     flex-direction: column;
+    text-align-all: right;
 }
 
 #nazarate-mardom-container{
@@ -344,7 +350,7 @@ img {
 #right-comment-text{
     display: flex;
     flex-direction: column;
-    background-color: red;
+
 }
 #left-comment-container{
     width: 50%;
@@ -360,8 +366,12 @@ img {
 }
 
 #doctor-name-comment{
+    background-color: red;
     font-family: 'Vazir', sans-serif;
     font-weight: bold;
+    text-align: right;
+    direction: rtl;
+    margin: 0px;
 }
 
 #left-comment-paragraph{
@@ -396,6 +406,7 @@ img {
     align-items: center;
     height: 80%;
     width: 20%;
+    margin-right: 20px;
 }
 
 #comment-image{
@@ -409,12 +420,24 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    align-items: self-start;
+    padding: 20px;
+
 
 }
 
 #doctor-field-comment{
     padding-right:10px;
+    direction: rtl;
+    text-align: right;
+}
+
+#doctor-name-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#doctor-field-container{
+    padding: 0px;
 }
 
 #sayere-nazarat-botton{
@@ -422,6 +445,13 @@ img {
     border-radius: 10px;
     height: 40px;
     width: 150px;
+    text-align: center;
+    padding-top: 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Vazir', sans-serif;
 
 }
 
