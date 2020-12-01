@@ -465,4 +465,140 @@ img {
 
 }
 
+#service-container{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/specialserviceblue.png");
+    Background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+#service-top-text-container{
+    height: 20%;
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#service-top-header{
+
+    margin-top: 0px;
+    font-size: 60px!important;
+    font-size: 15px;
+    font-family: 'Vazir', sans-serif;
+    color: white!important;
+    text-align: center!important;
+    width: 100%!important;
+    height: 100%;
+
+}
+
+
+#service-buttom-container{
+    height:90%;
+    background-color: lightcoral;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-right-bottom-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color: mediumpurple;
+    margin-right: 20%;
+    margin-left: 5%;
+
+
+}
+
+#service-left-bottom-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color: lightgreen;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+#service-right-image-container{
+    background-image: url("../images/service_right_image.png");
+    width: 100%;
+    height: 50%;
+    Background-size: cover;
+}
+
+#service-left-image-container{
+    background-image: url("../images/service_left_image.png");
+    width: 100%;
+    height: 50%;
+    Background-size: cover;
+}
+
+#right-service-text{
+    height: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazir', sans-serif;
+
+}
+
+#right-service-header{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    direction: rtl;
+    text-align: center;
+    font-family: 'Vazir', sans-serif;
+
+}
+
+#service-right-button-container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin-bottom: 0%;
+}
+
+#service-right-button{
+
+    border-radius: 30px;
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    padding-top: 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Vazir', sans-serif;
+    margin-top: 30%;
+
+
+}
+
+
 
