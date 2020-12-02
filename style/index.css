@@ -766,6 +766,10 @@ img {
     width: 45%;
     height: 15%;
     margin-right: 0px;
+    direction: rtl;
+    font-family: 'Vazir', sans-serif;
+    text-align: right;
+    language: "ar-sa";
 }
 
 #download-button-container {
@@ -812,6 +816,59 @@ img {
     margin-right: 20%;
     color: white;
     margin-top: 2%;
+}
 
+#footer-main-container {
+    height: 120vh;
+    width: 100vw;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-logo-main-container {
+    background-color: red;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo-container {
+
+    background-image: url("../images/wtf.png");
+    Background-size: contain;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    width: 10%;
+    height: 80%;
+    margin-top: 2%;
+    margin-bottom: 2px;
+}
+
+#footer-top-paragraph-main-container {
+    width: 100%;
+    height: 10%;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-top-paragraph-secondary-container {
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    width: 40%;
+}
+
+#footer-top-paragraph {
+    direction: rtl;
+    text-align:center;
+    font-size: 16px;
+    color: #fff!important;
+    font-family: 'Vazir', sans-serif;
 
 }
