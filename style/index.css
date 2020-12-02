@@ -479,7 +479,7 @@ img {
 }
 
 #service-top-text-container {
-    height: 20%;
+    height: 15%;
     width: 60%;
     display: flex;
     flex-direction: row-reverse;
@@ -492,8 +492,8 @@ img {
 #service-top-header {
 
     margin-top: 0px;
-    font-size: 40px !important;
-    font-size: 15px;
+    font-size: 30px !important;
+
     font-family: 'Vazir', sans-serif;
     color: white !important;
     text-align: center !important;
@@ -557,7 +557,7 @@ img {
     height: 10%;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     direction: rtl;
     text-align: right;
     font-family: 'Vazir', sans-serif;
@@ -578,7 +578,7 @@ img {
 
 .service-right-button-container {
     width: 100%;
-    height: 20%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -588,31 +588,30 @@ img {
 }
 
 .service-right-button {
-    border-radius: 30px;
-    height: 80px;
+    Border: 2px solid white;
+    border-radius: 10px;
+    height: 45%;
     width: 90%;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 7px;
     vertical-align: middle;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Vazir', sans-serif;
-    margin-top: 30%;
-    border-color: white;
-    border-width: 5px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
     margin-top: auto;
 }
 
-#download-container{
+#download-container {
     display: flex;
     flex-direction: row;
 
 }
 
-#download-container{
+#download-container {
     width: 100vw;
     height: 100vh;
     background-color: white;
@@ -625,7 +624,7 @@ img {
     margin-top: 10vh;
 }
 
-#download-left-container{
+#download-left-container {
     height: 100%;
     width: 30%;
     margin-left: auto;
@@ -634,20 +633,185 @@ img {
 }
 
 
-#download-right-container{
+.download-right-container {
     height: 100%;
     width: 30%;
-    background-color: lightblue;
+
     margin-right: auto;
     display: flex;
     flex-direction: column;
     margin-left: 5%;
 }
 
-#download-right-upper-image{
+.download-right-upper-image {
+    margin-top: 30%;
     background-image: url("../images/downloadmain.png");
     Background-size: cover;
-    
     height: 50%;
     width: 100%;
+    border-radius: 20px;
+}
+
+#download-right-lower-images-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+
+}
+
+#google-image {
+    background-image: url("../images/googleplay.png");
+    width: 30px;
+    height: 100%;
+    width: 30px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    Background-size: contain;
+
+
+}
+
+#apple-image {
+    background-image: url("../images/apple.png");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-left: 20px;
+    Background-size: contain;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+#bazar-image {
+    background-image: url("../images/bazar.png");
+    width: 30px;
+    height: 100%;
+    width: 30px;
+    background-repeat: no-repeat;
+    Background-size: contain;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.download-left-main-container {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.download-left-header-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0px;
+    width: 100%;
+}
+
+#download-left-text-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0px;
+    width: 100%;
+}
+
+#dowload-left-upper-header {
+    font-family: 'Vazir', sans-serif;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    margin-right: 0px;
+}
+
+#left-download-paragraph {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazir', sans-serif;
+    margin-right: 0px;
+    margin-top: 5%;
+}
+
+#dowload-left-lower-header {
+    margin-right: 0px;
+    font-family: 'Vazir', sans-serif;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    margin-top: 18%;
+}
+
+#download-left-lower-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5%;
+    padding-right: 0px;
+    height: 13%;
+
+}
+
+#download-left-text-box {
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 20px;
+    width: 45%;
+    height: 15%;
+    margin-right: 0px;
+}
+
+#download-button-container {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    margin-top: auto;
+    margin-right: 10px;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: row-reverse;
+    Border: 2px solid white;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+    padding-right: 0px;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #fb815e;
+    font-size: 18px;
+    font-family: 'Vazir', sans-serif;
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+
+#download-button-icon-container {
+    margin-right: 5%;
+    height: 30%;
+
+}
+
+#download-button-text {
+    font-size: 14px;
+    font-family: 'Vazir', sans-serif;
+    margin-right: 20%;
+    color: white;
+    margin-top: 2%;
+
+
 }
