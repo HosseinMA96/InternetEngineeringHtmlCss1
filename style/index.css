@@ -257,6 +257,7 @@ element.style {
     font-size: 16px;
     color: #3b4157;
     font-weight: 700 !important;
+    margin-right: 10px;
 }
 
 #moshahede-hame {
@@ -809,7 +810,6 @@ img {
 #download-button-icon-container {
     margin-right: 5%;
     height: 30%;
-
 }
 
 #download-button-text {
@@ -821,29 +821,31 @@ img {
 }
 
 #footer-main-container {
-    height: 120vh;
+    height: 130vh;
     width: 100vw;
     background-color: #007bff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
 }
 
 #footer-logo-main-container {
-    background-color: red;
     width: 100%;
-    height: 15%;
+    height: 17%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
 }
 
 #footer-logo-container {
 
-    background-image: url("../images/wtf.png");
+    background-image: url("../images/footerlogo.svg");
     Background-size: contain;
     background-repeat: no-repeat;
-    background-color: yellow;
     width: 10%;
     height: 80%;
     margin-top: 2%;
@@ -853,7 +855,6 @@ img {
 #footer-top-paragraph-main-container {
     width: 100%;
     height: 10%;
-    background-color: lightcoral;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -861,7 +862,6 @@ img {
 }
 
 #footer-top-paragraph-secondary-container {
-    background-color: lightgoldenrodyellow;
     height: 100%;
     width: 30%;
 }
@@ -876,9 +876,8 @@ img {
 }
 
 #footer-middle-container {
-    background-color: orange;
     width: 100%;
-    height: 40%;
+    height: 35%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -888,7 +887,6 @@ img {
 #footer-middle-middle-container {
     display: flex;
     flex-direction: column;
-    background-color: lightgoldenrodyellow;
     height: 100%;
     width: 30%;
 }
@@ -896,7 +894,6 @@ img {
 #footer-middle-icon-container {
     width: 100%;
     height: 20%;
-    background-color: yellow;
     margin-top: 3%;
     display: flex;
     flex-direction: row;
@@ -924,7 +921,6 @@ img {
     padding-top: 20px;
     width: 13%;
     height: 100%;
-    background-color: khaki;
     display: flex;
     flex-direction: column
 }
@@ -941,18 +937,18 @@ img {
 
 
 #footer-line-container {
+    margin-top:20px;
     width: 100%;
-    background-color: dimgray;
-    height: 60%;
+    height: 40%;
     display: flex;
+    margin-bottom: 20px;
     flex-direction: row;
 }
 
 #footer-line-container {
-    height: 100%;
-    width: 50%;
-    background-color: brown;
-    border-right: 10px solid red;
+    height: 80%;
+    width: 52%;
+    border-right: 2px solid white;
 }
 
 .footer-button {
@@ -962,24 +958,140 @@ img {
     color: white;
     direction: rtl;
     text-align: right;
-    background-color: black;
     font-family: 'Vazir', sans-serif;
     padding-right: 12px;
 }
 
 #footer-lower-paragraph-container {
-    width: 100%;
+    width: 30%;
     height: 10%;
     direction: rtl;
-    text-align:center;
-    background-color: rebeccapurple;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 14px;
-    color: #fff!important;
+    color: #fff !important;
     font-family: 'Vazir', sans-serif;
 }
+
+#footer-lower-textbar-container {
+    height: 25%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-top-textbars-container {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.footer-text-bar {
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 48%;
+    height: 100%;
+    margin-right: 0px;
+    direction: rtl;
+    font-family: 'Vazir', sans-serif;
+    text-align: right;
+    language: "ar-sa";
+    padding-right: 10px;
+
+}
+
+#footer-button-container {
+    width: 100%;
+    height: 30%;
+    margin-top: 15px;
+}
+
+#registration-button-icon-container {
+    margin-right: 5%;
+    height: 30%;
+    font-size: 20px;
+}
+
+#registration-button-text {
+    font-size: 16px;
+    font-family: 'Vazir', sans-serif;
+    margin-right: 30%;
+    color: #fff!important;
+    margin-top: 3px;
+}
+
+#registration-button {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    Border: 2px solid white;
+    border-radius: 10px;
+    height: 80%;
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Vazir', sans-serif;
+}
+
+#enamad-container{
+    height: 15%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+#enamad{
+    width: 30%;
+    height: 100%;
+    background-image: url("../images/enamad.png");
+    Background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-color: white;
+}
+
+#rezayat{
+    width: 30%;
+    height: 100%;
+    background-image: url("../images/rezayat.png");
+    Background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    background-color: white;
+}
+
+#credit{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+
+}
+
+.credit-comment{
+    font-family: 'Vazir', sans-serif;
+    font-size: 14px;
+    color: #3b4157;
+
+}
+
 
