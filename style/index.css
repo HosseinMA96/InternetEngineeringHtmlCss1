@@ -266,6 +266,16 @@ img {
     padding: 5px;
 }
 
+#quote-sign-container {
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/quote.PNG");
+    Background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:760px;
+    right: 900px;
+}
 
 
 .nazarat-mardom-text {
@@ -278,6 +288,7 @@ img {
 #please {
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
 }
 
 .nazarat-mardom-titr {
@@ -300,6 +311,7 @@ img {
 
 #nazarate-mardom-container {
     margin-right: 0px;
+
 }
 
 #right-comment-text {
@@ -337,8 +349,32 @@ img {
     margin-right: 15px;
     font-family: 'Vazir', sans-serif;
     font-size: 20px;
-    margin-bottom: auto;
+    margin-top: 30px;
     font-family: 'Vazir', sans-serif;
+}
+
+#comment-triangle
+{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #e5f2fe;
+    position: absolute;
+    top:1150px;
+    right: 1250px;
+
+}
+
+#commenter-name
+{
+    font-size: 13px;
+    font-family: 'Vazir', sans-serif;
+    position: absolute;
+    color: black;
+    right: 1250px;
+    top:1190px;
+
 }
 
 #comment-lower-left-container {
@@ -348,7 +384,7 @@ img {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-style: dashed;
-    height: 30%;
+    height: 35%;
     width: 100%;
     background-color: #e5f2fe;
     border-top-width: 1px;
