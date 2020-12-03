@@ -109,6 +109,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 40%;
+    width: 100%;
 
 }
 
@@ -119,65 +121,15 @@ body {
 
 }
 
-/* Fancy Search Box */
-.Fancysearch {
-    align-items: center;
-    /*background: #8a44d5 none repeat scroll 0 0;
-      transition: all 0.5s ease 0s;
-
-    */
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    margin: 12px 0;
-    padding: 0;
-
-}
-
-.Fancysearch i.fa {
-    padding: 12px;
-}
-
-.Fancysearch:hover,
-    /*
-    .Fancysearch:focus {
-        background: #853cd3;
-    }
-    /*
-     */
-.Fancysearch button,
-.Fancysearch input {
-    -moz-appearance: none;
-    background: transparent none repeat scroll 0 0;
-    border: 0 none;
-    color: inherit;
-    cursor: pointer;
-    font: inherit;
-    outline: 0 none;
-}
-
-.Fancysearch input {
-    /* background: #6426a7 none repeat scroll 0 0;*/
-    background-color: white;
-    padding: 10px;
-    width: 400px;
-    height: 35px;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-
-}
-
-#orange-serach-botton {
-    background-color: #fb815e;
-    width: 100px;
-    height: 20px;
-    font-family: 'Vazir', sans-serif;
-}
 
 #search-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 30%;
+    width: 100%;
+    flex-direction: row-reverse;
+
 }
 
 element.style {
@@ -264,9 +216,11 @@ element.style {
     margin-right: 80%;
     font-size: 14px;
     font-weight: 700 !important;
-    text-decoration: none !important;
+    color: #1780df;
+    text-decoration: none;
 
 }
+
 
 #moshahede-hame:hover, .text-water-blue {
     color: #1780df;
@@ -311,6 +265,7 @@ img {
     align-items: center;
     padding: 5px;
 }
+
 
 
 .nazarat-mardom-text {
@@ -937,7 +892,7 @@ img {
 
 
 #footer-line-container {
-    margin-top:20px;
+    margin-top: 20px;
     width: 100%;
     height: 40%;
     display: flex;
@@ -1009,6 +964,83 @@ img {
 
 }
 
+#search-text-bar {
+    border: 0px;
+    width: 40%;
+    height: 100%;
+    margin-right: 0px;
+    direction: rtl;
+    font-family: 'Vazir', sans-serif;
+    text-align: right;
+    language: "ar-sa";
+    padding-right: 15px;
+    font-size: 15px;
+    border-bottom-right-radius: 20px;
+}
+
+#seach-box-icon-container-container {
+    background-color: white;
+    height: 100%;
+    width: 2%;
+}
+
+#search-box-icon-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    padding-right: 0px;
+    border: 0px;
+    border-right: 2px solid gray;
+    height: 60%;
+    width: 100%;
+    margin-top: 28%;
+}
+
+/*
+/
+/
+/
+/
+/
+/
+/
+ */
+
+#search-button {
+    background-color: #fb815e;
+    border: 0px;
+    height: 76%;
+    width: 10%;
+    text-align: center;
+    padding-top: 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: 'Vazir', sans-serif;
+}
+
+/* class applies to select element itself, not a wrapper element */
+.select-css {
+    width: 10%;
+    height: 100%;
+    border: 0px;
+    direction: rtl;
+    padding-right: 20px;
+}
+
+
+/*
+
+/*
+/
+/
+/
+/
+ */
+
 #footer-button-container {
     width: 100%;
     height: 30%;
@@ -1025,7 +1057,7 @@ img {
     font-size: 16px;
     font-family: 'Vazir', sans-serif;
     margin-right: 30%;
-    color: #fff!important;
+    color: #fff !important;
     margin-top: 3px;
 }
 
@@ -1045,7 +1077,7 @@ img {
     font-family: 'Vazir', sans-serif;
 }
 
-#enamad-container{
+#enamad-container {
     height: 15%;
     width: 20%;
     display: flex;
@@ -1056,7 +1088,7 @@ img {
 
 }
 
-#enamad{
+#enamad {
     width: 30%;
     height: 100%;
     background-image: url("../images/enamad.png");
@@ -1066,7 +1098,7 @@ img {
     background-color: white;
 }
 
-#rezayat{
+#rezayat {
     width: 30%;
     height: 100%;
     background-image: url("../images/rezayat.png");
@@ -1076,7 +1108,7 @@ img {
     background-color: white;
 }
 
-#credit{
+#credit {
     width: 100%;
     height: 5%;
     background-color: white;
@@ -1087,7 +1119,7 @@ img {
 
 }
 
-.credit-comment{
+.credit-comment {
     font-family: 'Vazir', sans-serif;
     font-size: 14px;
     color: #3b4157;

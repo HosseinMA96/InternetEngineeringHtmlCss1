@@ -60,36 +60,21 @@
             </div>
         </div>
         <div id="search-box-container">
-            <div id="search-bar-div">
-                <div class="Fancysearch">
-
-                    <div id="orange-serach-botton">جستجو</div>
-                    <i class="fa fa-folder-open" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                    <div data-v-280a5748="" class="d-flex h-100 cursor-pointer">
-                        <svg data-v-280a5748="" xmlns="http://www.w3.org/2000/svg" width="1.8em" height="1.8em"
-                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                             stroke-linecap="round" stroke-linejoin="round"
-                             class="pr-2 m-auto text-light-gray-blue custom-class border-right feather feather-map-pin">
-                            <path data-v-280a5748="" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle data-v-280a5748="" cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        <svg data-v-280a5748="" xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
-                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                             stroke-linecap="round" stroke-linejoin="round"
-                             class=" pl-1 m-auto text-light-gray-blue custom-class feather feather-chevron-down">
-                            <polyline data-v-280a5748="" points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                        <input data-v-280a5748="" type="text" readonly="readonly" placeholder="نام شهر را انتخاب کنید."
-                               class="cursor-pointer col city text-steel  border-0 shadow-none pr-3"
-                               style="direction: ltr">
-
-                    </div>
-                    <div><input data-v-280a5748="" type="text"
-                                placeholder="نام پزشک ، تخصص ، یا محله مورد نظر را جستجو کنید."
-                                class="border-0 form-control name px-3 py-4"></div>
-                </div>
+            <input type="text" id="search-text-bar" lang="ar-sa"
+                   placeholder="نام تخصص، پزشک یا محله مورد نظر را جستجو کنید"/>
+            <div id="seach-box-icon-container-container">
+                <div id="search-box-icon-container"><i style="font-size: 30px; margin-right: 5px"
+                                                       class="fas fa-map-marker-alt"></i></div>
             </div>
+            <select class="select-css" style="direction: rtl">
+                <option>تهران</option>
+                <option>شهر قدس</option>
+                <option>رودهن</option>
+                <option>مشهد</option>
+                <option>پاکدشت</option>
+            </select>
+
+            <a href="#" id="search-button">جستجو</a>
         </div>
     </div>
 </section>
@@ -160,6 +145,7 @@
 <!-- description commnet -->
 <section id="comments">
     <div id="comments-container">
+        <div id="quote-sign-container"></div>
         <div id="right-comment-container">
             <div id="right-comment-text-container">
 
