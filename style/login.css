@@ -47,8 +47,8 @@ body {
     font-size: 14px;
     background-color: #f0f0f0;
     position: absolute;
-    right: 980px;
-    top: 286px;
+    right: 740px;
+    top: 202px;
     text-align: center;
     font-family: 'Vazir', sans-serif;
     font-weight: bold;
@@ -143,16 +143,21 @@ body {
     Border: 1px solid #fb815e;
     border-radius: 10px;
     height: 5%;
-    width: 12%;
+    width: 14%;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
     color: #fb815e;
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'Vazir', sans-serif;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 14px;
+}
+
+#code-moarref:hover{
+    background-color: #fb815e;
+    color: white;
 }
 
 #google-icon{

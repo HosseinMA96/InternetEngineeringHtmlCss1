@@ -254,6 +254,7 @@ img {
     font-weight: 700 !important;
     margin-top: 1.5rem !important;
     font-family: 'Vazir', sans-serif;
+    text-align: center;
 
 }
 
@@ -274,8 +275,8 @@ img {
     Background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top:760px;
-    right: 900px;
+    top: 760px;
+    right: 800px;
 }
 
 
@@ -354,27 +355,25 @@ img {
     font-family: 'Vazir', sans-serif;
 }
 
-#comment-triangle
-{
+#comment-triangle {
     width: 0;
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 40px solid #e5f2fe;
     position: absolute;
-    top:1150px;
-    right: 1250px;
+    top: 1150px;
+    right: 1150px;
 
 }
 
-#commenter-name
-{
+#commenter-name {
     font-size: 13px;
     font-family: 'Vazir', sans-serif;
     position: absolute;
     color: black;
-    right: 1250px;
-    top:1190px;
+    right: 1150px;
+    top: 1190px;
 
 }
 
@@ -779,24 +778,61 @@ img {
 }
 
 .btn {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: row-reverse;
-    Border: 2px solid white;
     border-radius: 10px;
-    height: 80%;
-    padding-top: 10px;
-    width: 100%;
-    text-align: center;
-    margin-top: 0px;
-    padding-right: 0px;
     vertical-align: middle;
     text-decoration: none;
     background-color: #fb815e;
     font-size: 18px;
     font-family: 'Vazir', sans-serif;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 
 
+.btn:hover .btn-inside {
+    width: 100%;
+    transition: width 1s ease;
+}
+
+.btn-inside {
+    opacity: 0.5;
+    border-radius: 10px;
+    background-color: #fc9c81;
+    width: 20%;
+    height: 100%;
+    line-height: 40px;
+    text-align: left;
+    position: absolute;
+    transition: width 1s ease;
+}
+
+.registration-text {
+    text-align: center;
+    padding-right:110px;
+    font-size: 20px;
+    font-family: 'Vazir', sans-serif;
+}
+
+.download-text{
+    text-align: center;
+    font-size: 12px;
+    padding-right: 30px;
+    font-family: 'Vazir', sans-serif;
+    margin-top: 5px;
+}
+
+span {
+    display: inline-block;
 }
 
 #download-button-icon-container {
@@ -1003,7 +1039,7 @@ img {
 
 #search-text-bar {
     border: 0px;
-    width: 40%;
+    width: 41%;
     height: 100%;
     margin-right: 0px;
     direction: rtl;
@@ -1012,15 +1048,16 @@ img {
     language: "ar-sa";
     padding-right: 15px;
     font-size: 15px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 0px;
 }
 
-#seach-box-icon-container-container {
+#search-box-icon-container-container {
     background-color: white;
-    height: 80%;
+    height: 81%;
     width: 2%;
     padding-top: 18px;
+
 }
 
 #search-box-icon-container {
@@ -1033,14 +1070,14 @@ img {
     height: 60%;
     width: 100%;
     margin-top: 35%;
-}
 
+}
 
 
 #search-button {
     background-color: #fb815e;
     border: 0px;
-    height: 74px;
+    height: 75px;
     width: 10%;
     text-align: center;
     padding-top: 18px;
@@ -1159,3 +1196,34 @@ img {
 
 }
 
+
+.header-list:hover {
+    color: #fb815e;
+}
+
+
+.vorood:hover {
+    color: #fb815e;
+}
+
+#search-button:hover {
+    background-color: orangered;
+}
+
+#moshahede-hame:hover {
+    color: #fb815e;
+}
+
+#sayere-nazarat-botton:hover {
+    background-color: orangered;
+}
+
+.service-right-button:hover {
+    background-color: white;
+    color: #1780df;
+}
+
+.footer-button:hover {
+    background-color: white;
+    color: #1780df;
+}
