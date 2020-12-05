@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+* {
+    font-family: BYekan, 'BYekan', tahoma;;
+}
+
+
 body {
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -38,7 +43,7 @@ body {
     align-items: center;
 }
 
-#top-label{
+#top-label {
 
     width: 80px;
     height: 20px;
@@ -50,14 +55,13 @@ body {
     right: 740px;
     top: 202px;
     text-align: center;
-    font-family: 'Vazir', sans-serif;
+
     font-weight: bold;
 
 }
 
-#top-label-text
-{
-    margin-top: 5px;
+#top-label-text {
+    margin-top: 7px;
 }
 
 #logo-container {
@@ -76,7 +80,6 @@ body {
 
 #welcome-header {
     color: white;
-    font-family: 'Vazir', sans-serif;
     font-size: 22px;
     font-weight: 700;
     text-align: right;
@@ -85,7 +88,6 @@ body {
 
 #introduction {
     color: white;
-    font-family: 'Vazir', sans-serif;
     font-size: 16px;
     font-weight: 700;
     text-align: right;
@@ -95,7 +97,6 @@ body {
 
 #left-text {
     color: #3b4157;
-    font-family: 'Vazir', sans-serif;
     font-size: 16px;
     font-weight: 700;
     text-align: right;
@@ -103,13 +104,12 @@ body {
     margin-bottom: 60px;
 }
 
-#phone-text-box{
+#phone-text-box {
     background-color: white;
     border: 1px solid #6e7794;
     width: 40%;
     height: 8%;
     direction: rtl;
-    font-family: 'Vazir', sans-serif;
     text-align: right;
     language: "ar-sa";
     padding-right: 15px;
@@ -130,7 +130,6 @@ body {
     color: white;
     font-size: 18px;
     border-radius: 8px;
-    font-family: 'Vazir', sans-serif;
     margin-top: 10px;
     direction: rtl;
     text-align: center;
@@ -149,18 +148,17 @@ body {
     text-decoration: none;
     color: #fb815e;
     font-size: 14px;
-    font-family: 'Vazir', sans-serif;
     justify-content: center;
     align-items: center;
     padding-top: 14px;
 }
 
-#code-moarref:hover{
+#code-moarref:hover {
     background-color: #fb815e;
     color: white;
 }
 
-#google-icon{
+#google-icon {
     font-size: 40px;
     margin-top: 40px;
     background-image: url("../images/google.png");
@@ -169,16 +167,14 @@ body {
     background-size: cover;
 }
 
-#google-login-text{
+#google-login-text {
     text-decoration: none;
-    margin-top:10px;
+    margin-top: 10px;
     border-bottom: 1px dashed;
     border-top: 0;
     padding-bottom: 3px;
     color: #1780df;
-    font-weight: 700!important;
-    font-family: 'Vazir', sans-serif;
-
+    font-weight: 700 !important;
 }
 
 

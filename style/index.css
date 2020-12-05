@@ -6,9 +6,14 @@
     padding: 0;
 }
 
+* {
+    font-family: BYekan, 'BYekan', tahoma;;
+}
+
 body {
     background-color: white;
 }
+
 
 .header-container {
     display: flex;
@@ -43,18 +48,30 @@ body {
 #vorood-text {
     margin-right: 150px;
     font-size: 15px;
-    font-family: 'Vazir', sans-serif;
+    background-color: gray;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+
+
 
 }
 
 .vorood {
     display: flex;
     flex-direction: row-reverse;
+    background: gray;
+    width: 120px;
+    height: 20px;
+
+
 }
 
 #vorood-icon {
+    margin-top: 5px;
     font-size: 15px;
-    margin-right: 5px;
+    margin-right: 10px;
+    background-color: gray;
 
 }
 
@@ -75,7 +92,7 @@ body {
 
 .header-text {
     font-size: 14px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 .p {
@@ -116,7 +133,7 @@ body {
 
 #search-upper-box-text {
     font-size: 50px;
-    font-family: 'Vazir', sans-serif;
+
     color: white;
 
 }
@@ -253,7 +270,7 @@ img {
     color: #3b4157;
     font-weight: 700 !important;
     margin-top: 1.5rem !important;
-    font-family: 'Vazir', sans-serif;
+
     text-align: center;
 
 }
@@ -284,7 +301,7 @@ img {
     direction: rtl;
     text-align: right;
     margin-right: 60px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 #please {
@@ -298,7 +315,7 @@ img {
     direction: rtl;
     text-align: right;
     margin-right: 60px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 #right-comment-container {
@@ -337,7 +354,7 @@ img {
 
 #doctor-name-comment {
     background-color: red;
-    font-family: 'Vazir', sans-serif;
+
     font-weight: bold;
     text-align: right;
     direction: rtl;
@@ -349,10 +366,10 @@ img {
     text-align: right;
     direction: rtl;
     margin-right: 15px;
-    font-family: 'Vazir', sans-serif;
+
     font-size: 20px;
     margin-top: 30px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 #comment-triangle {
@@ -369,7 +386,7 @@ img {
 
 #commenter-name {
     font-size: 13px;
-    font-family: 'Vazir', sans-serif;
+
     position: absolute;
     color: black;
     right: 1150px;
@@ -443,7 +460,7 @@ img {
     text-decoration: none;
     color: white;
     font-size: 15px;
-    font-family: 'Vazir', sans-serif;
+
 
 }
 
@@ -486,7 +503,7 @@ img {
     margin-top: 0px;
     font-size: 30px !important;
 
-    font-family: 'Vazir', sans-serif;
+
     color: white !important;
     text-align: center !important;
     width: 100% !important;
@@ -552,7 +569,7 @@ img {
     font-size: 15px;
     direction: rtl;
     text-align: right;
-    font-family: 'Vazir', sans-serif;
+
     margin-top: 5%;
 
 }
@@ -563,7 +580,7 @@ img {
     font-size: 25px;
     direction: rtl;
     text-align: center;
-    font-family: 'Vazir', sans-serif;
+
     margin-top: 5%;
 
 }
@@ -590,7 +607,7 @@ img {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: 'Vazir', sans-serif;
+
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -720,7 +737,7 @@ img {
 }
 
 #dowload-left-upper-header {
-    font-family: 'Vazir', sans-serif;
+
     font-size: 20px !important;
     font-weight: 700 !important;
     margin-right: 0px;
@@ -729,14 +746,14 @@ img {
 #left-download-paragraph {
     direction: rtl;
     text-align: right;
-    font-family: 'Vazir', sans-serif;
+
     margin-right: 0px;
     margin-top: 5%;
 }
 
 #dowload-left-lower-header {
     margin-right: 0px;
-    font-family: 'Vazir', sans-serif;
+
     font-size: 15px !important;
     font-weight: 600 !important;
     margin-top: 18%;
@@ -759,7 +776,7 @@ img {
     height: 15%;
     margin-right: 0px;
     direction: rtl;
-    font-family: 'Vazir', sans-serif;
+
     text-align: right;
     language: "ar-sa";
 }
@@ -789,7 +806,7 @@ img {
     text-decoration: none;
     background-color: #fb815e;
     font-size: 18px;
-    font-family: 'Vazir', sans-serif;
+
     position: relative;
     text-align: center;
     line-height: 40px;
@@ -818,16 +835,16 @@ img {
 
 .registration-text {
     text-align: center;
-    padding-right:110px;
+    padding-right: 110px;
     font-size: 20px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
-.download-text{
+.download-text {
     text-align: center;
     font-size: 12px;
     padding-right: 30px;
-    font-family: 'Vazir', sans-serif;
+
     margin-top: 5px;
 }
 
@@ -842,7 +859,7 @@ span {
 
 #download-button-text {
     font-size: 14px;
-    font-family: 'Vazir', sans-serif;
+
     margin-right: 20%;
     color: white;
     margin-top: 2%;
@@ -899,7 +916,7 @@ span {
     text-align: center;
     font-size: 16px;
     color: #fff !important;
-    font-family: 'Vazir', sans-serif;
+
 
 }
 
@@ -986,7 +1003,7 @@ span {
     color: white;
     direction: rtl;
     text-align: right;
-    font-family: 'Vazir', sans-serif;
+
     padding-right: 12px;
 }
 
@@ -1002,7 +1019,7 @@ span {
     color: white;
     font-size: 14px;
     color: #fff !important;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 #footer-lower-textbar-container {
@@ -1030,7 +1047,7 @@ span {
     height: 100%;
     margin-right: 0px;
     direction: rtl;
-    font-family: 'Vazir', sans-serif;
+
     text-align: right;
     language: "ar-sa";
     padding-right: 10px;
@@ -1043,7 +1060,7 @@ span {
     height: 100%;
     margin-right: 0px;
     direction: rtl;
-    font-family: 'Vazir', sans-serif;
+
     text-align: right;
     language: "ar-sa";
     padding-right: 15px;
@@ -1088,7 +1105,7 @@ span {
     font-weight: bold;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 /* class applies to select element itself, not a wrapper element */
@@ -1099,7 +1116,7 @@ span {
     direction: rtl;
     padding-right: 20px;
     font-size: 20px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 
@@ -1125,7 +1142,7 @@ span {
 
 #registration-button-text {
     font-size: 16px;
-    font-family: 'Vazir', sans-serif;
+
     margin-right: 30%;
     color: #fff !important;
     margin-top: 3px;
@@ -1144,7 +1161,7 @@ span {
     vertical-align: middle;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Vazir', sans-serif;
+
 }
 
 #enamad-container {
@@ -1190,7 +1207,7 @@ span {
 }
 
 .credit-comment {
-    font-family: 'Vazir', sans-serif;
+
     font-size: 14px;
     color: #3b4157;
 
