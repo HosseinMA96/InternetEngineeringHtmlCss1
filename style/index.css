@@ -6,15 +6,21 @@
     padding: 0;
 }
 
+
+/* font */
 * {
-    font-family: BYekan, 'BYekan', tahoma;;
+    font-family: 'Vazir', sans-serif;
 }
 
+/* no x scrolling */
 body {
     background-color: white;
+    overflow-x: hidden;
+
 }
 
 
+/* style for top header of the website where we have logos and menu */
 .header-container {
     display: flex;
     flex-direction: row-reverse;
@@ -24,6 +30,7 @@ body {
     align-items: center;
 }
 
+/* style for top header of the website where we have logos and menu */
 .header-logo {
 
 
@@ -36,20 +43,25 @@ body {
     background-color: white;
 }
 
+
+/* style for our icons from fontawesome */
 .i {
     font-size: 200px;
 }
 
+/* style for top header icon */
 .header-icon {
     margin-left: 5px;
     font-size: 15px;
 }
 
+
+/* style for welcome text */
 #vorood-text {
     margin-right: 150px;
     font-size: 15px;
     background-color: gray;
-    width: 180px;
+    width: 100px;
     display: flex;
     flex-direction: row;
 
@@ -57,24 +69,29 @@ body {
 
 }
 
+
+/* style for vorood div*/
 .vorood {
     display: flex;
     flex-direction: row-reverse;
-    background: gray;
-    width: 120px;
-    height: 20px;
-
+    background: #ededed;
+    width: 200px;
+    height: 30px;
+    color: #1780df;
 
 }
 
+/* style for vorood icon on the top left */
 #vorood-icon {
     margin-top: 5px;
     font-size: 15px;
     margin-right: 10px;
-    background-color: gray;
+
+
 
 }
 
+/* style for div children of the header */
 .header-container > div {
     padding: 30px;
     background-color: white;
@@ -84,21 +101,25 @@ body {
     display: flex;
 }
 
+/* style for the header list flex where we have top logo and menu items */
 .header-list {
     display: flex;
     flex-direction: row-reverse;
 }
 
-
+/* style for header top text */
 .header-text {
     font-size: 14px;
 
 }
 
+/* style for paragraphs. it is only a place holder at this time  */
 .p {
     color: aqua;
 }
 
+
+/* style for seach section background main div */
 #search-background {
     display: flex;
     width: 100%;
@@ -110,7 +131,7 @@ body {
     flex-direction: column;
 }
 
-
+/*  style for the seachbar row flex where we have our elemtns in a row */
 #searchBar {
     display: flex;
     flex-direction: row-reverse;
@@ -120,7 +141,7 @@ body {
     align-items: center;
 }
 
-
+/* style for top header of the search box */
 #search-upper-box {
 
     display: flex;
@@ -131,6 +152,8 @@ body {
 
 }
 
+
+/* style for searchbar header text */
 #search-upper-box-text {
     font-size: 50px;
 
@@ -138,7 +161,7 @@ body {
 
 }
 
-
+/* style for the container of the search box where bottom and the bar itself reside */
 #search-box-container {
     display: flex;
     justify-content: center;
@@ -150,48 +173,15 @@ body {
 
 }
 
-element.style {
-}
-
-.search-input .city[data-v-280a5748] {
-    outline: 0 !important;
-}
-
-.cursor-pointer {
-    cursor: pointer !important;
-}
-
-.text-steel {
-    color: #6e7794;
-}
-
-.pr-3, .px-3 {
-    padding-right: 1rem !important;
-}
-
-.shadow-none {
-    box-shadow: none !important;
-}
-
-.border-0 {
-    border: 0 !important;
-}
-
-.col {
-    flex-basis: 0;
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-    max-width: 100%;
-}
-
+/* style for specialization main container */
 #specialization-container {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
 
-/* Fancy Search Box */
 
+/* style for cardboards container */
 #all-cards-container {
     display: flex;
     flex-direction: row-reverse;
@@ -200,6 +190,7 @@ element.style {
     padding: 50px;
 }
 
+/* style for cardboards */
 .card {
     display: flex;
     flex-direction: column;
@@ -214,44 +205,57 @@ element.style {
 
 }
 
+/* style for cardboards hover */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* stylefor top of cards text elements */
 #card-top {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-right: 90px;
+
 }
 
+/* style for behtarin doctor text */
 #behtarin {
-    font-size: 16px;
+    font-size: 14px;
     color: #3b4157;
     font-weight: 700 !important;
-    margin-right: 10px;
+    text-align: right;
+    direction: rtl;
 }
 
+
+/* style for moshahede hame text */
 #moshahede-hame {
-    margin-right: 80%;
+
     font-size: 14px;
     font-weight: 700 !important;
     color: #1780df;
+    margin-left: 100px;
     text-decoration: none;
 
 }
 
-
+/* style for moshahede hame text hover */
 #moshahede-hame:hover, .text-water-blue {
     color: #1780df;
 }
 
+/* style for card container */
 .card-containter {
     padding: 2px 16px;
 }
 
+/* placeholder for img style. we will later override it if needed */
 img {
     border-radius: 5px 5px 0 0;
 }
 
+/* style for card background flex where cards reside */
 .card-background {
     display: flex;
 
@@ -263,6 +267,7 @@ img {
 
 }
 
+/* style for cardboard caption */
 .card-subtitle {
     margin-bottom: 0;
     box-sizing: border-box;
@@ -275,6 +280,7 @@ img {
 
 }
 
+/* style for comments container where we have an image a botton and a paragraph */
 #comments-container {
     padding: 5px;
     display: flex;
@@ -285,6 +291,8 @@ img {
     padding: 5px;
 }
 
+
+/* style for quote box. It's position is absolute and it's and image in fact */
 #quote-sign-container {
     width: 50px;
     height: 50px;
@@ -292,11 +300,11 @@ img {
     Background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 760px;
+    top: 769px;
     right: 800px;
 }
 
-
+/* style for nazarate mardom text */
 .nazarat-mardom-text {
     direction: rtl;
     text-align: right;
@@ -304,12 +312,21 @@ img {
 
 }
 
+/* style for doctors name text*/
+#doctor-name{
+    padding-left: 24px;
+    font-size: 14px;
+}
+
+/* style for doctor's picture and name and profession field */
 #please {
     display: flex;
     flex-direction: column;
     padding-top: 15px;
+    width: 30%;
 }
 
+/* style for nazarate mardom header */
 .nazarat-mardom-titr {
     margin-right: 60px;
     direction: rtl;
@@ -318,27 +335,34 @@ img {
 
 }
 
+/* style for right comment  */
 #right-comment-container {
     width: 50%;
 }
 
+
+/* style for comments text container */
 #right-comment-text-container {
     display: flex;
     flex-direction: column;
     text-align-all: right;
 }
 
+
+/* style for nazarate mardom container */
 #nazarate-mardom-container {
     margin-right: 0px;
 
 }
 
+/* style for right side comment text */
 #right-comment-text {
     display: flex;
     flex-direction: column;
 
 }
 
+/* style for left comments container */
 #left-comment-container {
     width: 50%;
     display: flex;
@@ -352,6 +376,8 @@ img {
     margin-left: 10px;
 }
 
+
+/* style for doctor name in comment section text */
 #doctor-name-comment {
     background-color: red;
 
@@ -361,6 +387,7 @@ img {
     margin: 0px;
 }
 
+/* style for comments left paragraph */
 #left-comment-paragraph {
 
     text-align: right;
@@ -372,6 +399,7 @@ img {
 
 }
 
+/* style for comments triangle. it's position is absokute */
 #comment-triangle {
     width: 0;
     height: 0;
@@ -384,6 +412,8 @@ img {
 
 }
 
+
+/* style for commenter's name text */
 #commenter-name {
     font-size: 13px;
 
@@ -394,6 +424,7 @@ img {
 
 }
 
+/* style for comments lower lweft container where the bottom resides */
 #comment-lower-left-container {
     display: flex;
     flex-direction: row-reverse;
@@ -408,6 +439,7 @@ img {
     margin-top: auto;
 }
 
+/* style for comments bottom picture container */
 #comment-bottom-picture-container {
     display: flex;
     flex-direction: row;
@@ -418,6 +450,7 @@ img {
     margin-right: 20px;
 }
 
+/* style for comment image. we want it to be a circle */
 #comment-image {
     border-radius: 50%;
     height: 80%;
@@ -425,6 +458,7 @@ img {
 
 }
 
+/* style for doctor's description div */
 #doctor-description-container {
     display: flex;
     flex-direction: column;
@@ -434,21 +468,25 @@ img {
 
 }
 
-#doctor-field-comment {
-    padding-right: 10px;
+/* style for doctor's field text */
+#doctor-field {
+    padding-right: 30px;
     direction: rtl;
     text-align: right;
 }
 
+/* style for doctor's name container div */
 #doctor-name-container {
     display: flex;
     flex-direction: row-reverse;
 }
 
+/* style for doctor's field container */
 #doctor-field-container {
     padding: 0px;
 }
 
+/* style for sayere nazarat button */
 #sayere-nazarat-botton {
     background-color: #fb815e;
     border-radius: 10px;
@@ -464,16 +502,18 @@ img {
 
 }
 
+/* style for sayere nazarat container  */
 #sayere-nazarat-container {
     margin-top: 30px;
     margin-left: 20px;
     padding: 5px;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
 
 }
 
+/* style for services container and its background which is cloned from the website */
 #service-container {
     margin-top: 100px;
     width: 100%;
@@ -487,6 +527,7 @@ img {
     padding-top: 0px;
 }
 
+/* style for services top header container */
 #service-top-text-container {
     height: 15%;
     width: 60%;
@@ -498,6 +539,7 @@ img {
     padding-top: 0px;
 }
 
+/* style for services top header text */
 #service-top-header {
 
     margin-top: 0px;
@@ -513,6 +555,7 @@ img {
 }
 
 
+/* style for service button's container */
 #service-buttom-container {
     height: 90%;
 
@@ -525,6 +568,7 @@ img {
     align-items: center;
 }
 
+/* style for service right button. it is also used for the left services section */
 #service-right-bottom-container {
     display: flex;
     flex-direction: column;
@@ -538,6 +582,7 @@ img {
 
 }
 
+/* style for services left bottom container. It is also used for the right counterpart */
 #service-left-bottom-container {
     display: flex;
     flex-direction: column;
@@ -547,6 +592,7 @@ img {
     margin-right: 5%;
 }
 
+/* style for the services right image container. It is addressed locally */
 #service-right-image-container {
     background-image: url("../images/service_right_image.png");
     width: 100%;
@@ -555,6 +601,7 @@ img {
     margin-top: 0px;
 }
 
+/* style for the services left image container. It is addressed locally */
 #service-left-image-container {
     background-image: url("../images/service_left_image.png");
     width: 100%;
@@ -562,6 +609,7 @@ img {
     Background-size: cover;
 }
 
+/* style for service's right side text */
 .right-service-text {
     height: 10%;
     color: white;
@@ -574,6 +622,7 @@ img {
 
 }
 
+/* style for service right header. it's the same for the service left header  */
 .right-service-header {
     color: white;
     font-weight: bold;
@@ -585,6 +634,7 @@ img {
 
 }
 
+/* style for service right button container. It's the same for the left one */
 .service-right-button-container {
     width: 100%;
     height: 15%;
@@ -596,6 +646,7 @@ img {
     margin-top: auto;
 }
 
+/* style for service right button. it's the same for the left side */
 .service-right-button {
     Border: 2px solid white;
     border-radius: 10px;
@@ -614,12 +665,15 @@ img {
     margin-top: auto;
 }
 
+
+/* style for download container */
 #download-container {
     display: flex;
     flex-direction: row;
 
 }
 
+/* style for download container. it overrides the last one! */
 #download-container {
     width: 100vw;
     height: 100vh;
@@ -633,6 +687,7 @@ img {
     margin-top: 10vh;
 }
 
+/* style for download's left container where our textbar and button reside */
 #download-left-container {
     height: 100%;
     width: 30%;
@@ -641,7 +696,7 @@ img {
     background-color: lightgreen;
 }
 
-
+/* style for download right side container where the images and the following icons reside */
 .download-right-container {
     height: 100%;
     width: 30%;
@@ -652,6 +707,7 @@ img {
     margin-left: 5%;
 }
 
+/* style for donwload's right upper image. It is addressed locally */
 .download-right-upper-image {
     margin-top: 30%;
     background-image: url("../images/downloadmain.png");
@@ -661,6 +717,7 @@ img {
     border-radius: 20px;
 }
 
+/* style for download's right lower images strip where icons reside */
 #download-right-lower-images-container {
     margin-top: 20px;
     display: flex;
@@ -673,6 +730,7 @@ img {
 
 }
 
+/* style for google image in the download section. it is addressed locally */
 #google-image {
     background-image: url("../images/googleplay.png");
     width: 30px;
@@ -687,6 +745,7 @@ img {
 
 }
 
+/* style for apple image in the download section. it is addressed locally */
 #apple-image {
     background-image: url("../images/apple.png");
     height: 30px;
@@ -701,6 +760,7 @@ img {
 
 }
 
+/* style foe the baarimage in the download section. it is addressed locally */
 #bazar-image {
     background-image: url("../images/bazar.png");
     width: 30px;
@@ -713,6 +773,7 @@ img {
     margin-bottom: 10px;
 }
 
+/* style for the download left main container. it resides the text bar and buttons */
 .download-left-main-container {
     margin-top: 30%;
     display: flex;
@@ -722,6 +783,7 @@ img {
     border-radius: 20px;
 }
 
+/* style for the download's left side header container */
 .download-left-header-container {
     display: flex;
     flex-direction: row-reverse;
@@ -729,6 +791,7 @@ img {
     width: 100%;
 }
 
+/* style for the download's left side text container */
 #download-left-text-container {
     display: flex;
     flex-direction: row-reverse;
@@ -736,6 +799,7 @@ img {
     width: 100%;
 }
 
+/* style for the download's left side header */
 #dowload-left-upper-header {
 
     font-size: 20px !important;
@@ -743,6 +807,7 @@ img {
     margin-right: 0px;
 }
 
+/* style for donwloads left side paragraph */
 #left-download-paragraph {
     direction: rtl;
     text-align: right;
@@ -751,6 +816,7 @@ img {
     margin-top: 5%;
 }
 
+/* style for downloads left side lower header */
 #dowload-left-lower-header {
     margin-right: 0px;
 
@@ -759,6 +825,7 @@ img {
     margin-top: 18%;
 }
 
+/* style for download's left lower container */
 #download-left-lower-container {
     display: flex;
     flex-direction: row-reverse;
@@ -768,6 +835,7 @@ img {
 
 }
 
+/* style for download left text box */
 #download-left-text-box {
     border-radius: 10px;
     border: 2px solid gray;
@@ -781,6 +849,7 @@ img {
     language: "ar-sa";
 }
 
+/* style for donwload button container */
 #download-button-container {
     width: 35%;
     height: 100%;
@@ -794,6 +863,7 @@ img {
 
 }
 
+/* style for orange buttone. they have a white transparent effect which slide uppon hover or release */
 .btn {
     cursor: pointer;
     height: 100%;
@@ -815,12 +885,13 @@ img {
     padding: 0;
 }
 
-
+/* style for orange buttons hover */
 .btn:hover .btn-inside {
     width: 100%;
     transition: width 1s ease;
 }
 
+/* style for buttons with transparent layer effect. transition time is set to 1s */
 .btn-inside {
     opacity: 0.5;
     border-radius: 10px;
@@ -833,6 +904,7 @@ img {
     transition: width 1s ease;
 }
 
+/* style for registration text */
 .registration-text {
     text-align: center;
     padding-right: 110px;
@@ -840,6 +912,7 @@ img {
 
 }
 
+/* style for download text */
 .download-text {
     text-align: center;
     font-size: 12px;
@@ -848,15 +921,18 @@ img {
     margin-top: 5px;
 }
 
+/* style for all span elements. we may override it */
 span {
     display: inline-block;
 }
 
+/* style for  download button's icon container */
 #download-button-icon-container {
     margin-right: 5%;
     height: 30%;
 }
 
+/* style for  download button text*/
 #download-button-text {
     font-size: 14px;
 
@@ -865,6 +941,7 @@ span {
     margin-top: 2%;
 }
 
+/* style for footer's main container */
 #footer-main-container {
     height: 130vh;
     width: 100vw;
@@ -876,6 +953,7 @@ span {
     padding-top: 0px;
 }
 
+/* style for footr's logo main container */
 #footer-logo-main-container {
     width: 100%;
     height: 17%;
@@ -886,6 +964,7 @@ span {
     margin-top: 0px;
 }
 
+/* style for footer's logo container. the logo is addressed locally */
 #footer-logo-container {
 
     background-image: url("../images/footerlogo.svg");
@@ -897,6 +976,7 @@ span {
     margin-bottom: 2px;
 }
 
+/* style for footer's top paragraph main container */
 #footer-top-paragraph-main-container {
     width: 100%;
     height: 10%;
@@ -906,11 +986,13 @@ span {
     align-items: center;
 }
 
+/* style for  footer's paragraph's second container. used as spacer between logo and middle content */
 #footer-top-paragraph-secondary-container {
     height: 100%;
     width: 30%;
 }
 
+/* style for footer's top paragraph */
 #footer-top-paragraph {
     direction: rtl;
     text-align: center;
@@ -920,6 +1002,7 @@ span {
 
 }
 
+/* style for  footer's middle container where buttons and icons reside */
 #footer-middle-container {
     width: 100%;
     height: 35%;
@@ -929,6 +1012,7 @@ span {
     align-items: center;
 }
 
+/* style for footer's middle middlecontainer where icon's in the footer reside */
 #footer-middle-middle-container {
     display: flex;
     flex-direction: column;
@@ -936,6 +1020,7 @@ span {
     width: 30%;
 }
 
+/* style for footer's middle icnon container */
 #footer-middle-icon-container {
     width: 100%;
     height: 20%;
@@ -948,20 +1033,24 @@ span {
     padding-left: 0px;
 }
 
+/* style for instagram logo container */
 #instagram-container {
     font-size: 35px;
     margin-left: 30px;
 }
 
+/* style for twitter logo container */
 #twitter-container {
     font-size: 35px
 }
 
+/* style for linkedin logo container */
 #linkedin-container {
     font-size: 35px;
     margin-right: 2%;
 }
 
+/* style for linkedin logo container */
 .footer-side-rectangle-container {
     padding-top: 20px;
     width: 13%;
@@ -970,6 +1059,7 @@ span {
     flex-direction: column
 }
 
+/* style for footer's side boxes where they are buttons in fact */
 .footer-side-box {
     width: 100%;
     height: 15%;
@@ -981,6 +1071,7 @@ span {
 }
 
 
+/* style for footer's horizontal line */
 #footer-line-container {
     margin-top: 20px;
     width: 100%;
@@ -990,12 +1081,14 @@ span {
     flex-direction: row;
 }
 
+/* style for footer's line div container */
 #footer-line-container {
     height: 80%;
     width: 52%;
     border-right: 2px solid white;
 }
 
+/* style for footer's button container */
 .footer-button {
     width: 60%;
     height: 100%;
@@ -1007,6 +1100,7 @@ span {
     padding-right: 12px;
 }
 
+/* style for footer's lower paragraph container */
 #footer-lower-paragraph-container {
     width: 30%;
     height: 10%;
@@ -1022,6 +1116,7 @@ span {
 
 }
 
+/* style for footer's lower textbar container */
 #footer-lower-textbar-container {
     height: 25%;
     width: 30%;
@@ -1030,6 +1125,7 @@ span {
 
 }
 
+/* style for footer's top textbar container */
 .footer-top-textbars-container {
     width: 100%;
     height: 15%;
@@ -1040,6 +1136,7 @@ span {
 
 }
 
+/* style for footer's textbar */
 .footer-text-bar {
     border-radius: 5px;
     border: 2px solid gray;
@@ -1054,6 +1151,7 @@ span {
 
 }
 
+/* style for search text bar in footer */
 #search-text-bar {
     border: 0px;
     width: 41%;
@@ -1069,6 +1167,7 @@ span {
     border-top-right-radius: 0px;
 }
 
+/* style for search box icon container container */
 #search-box-icon-container-container {
     background-color: white;
     height: 81%;
@@ -1077,6 +1176,7 @@ span {
 
 }
 
+/* style for search box icon container */
 #search-box-icon-container {
     display: flex;
     flex-direction: row-reverse;
@@ -1090,7 +1190,7 @@ span {
 
 }
 
-
+/* style for search button */
 #search-button {
     background-color: #fb815e;
     border: 0px;
@@ -1108,7 +1208,7 @@ span {
 
 }
 
-/* class applies to select element itself, not a wrapper element */
+/* style for city selection choices in the search section */
 .select-css {
     width: 10%;
     height: 100%;
@@ -1119,27 +1219,21 @@ span {
 
 }
 
-
-/*
-/*
-/
-/
-/
-/
- */
-
+/* style for search button */
 #footer-button-container {
     width: 100%;
     height: 30%;
     margin-top: 15px;
 }
 
+/* style for registration icon container in footer */
 #registration-button-icon-container {
     margin-right: 5%;
     height: 30%;
     font-size: 20px;
 }
 
+/* style for registration button text */
 #registration-button-text {
     font-size: 16px;
 
@@ -1148,6 +1242,7 @@ span {
     margin-top: 3px;
 }
 
+/* style for registration button */
 #registration-button {
     color: white;
     display: flex;
@@ -1164,6 +1259,7 @@ span {
 
 }
 
+/* style for enamad container */
 #enamad-container {
     height: 15%;
     width: 20%;
@@ -1175,6 +1271,7 @@ span {
 
 }
 
+/* style for image where it is addressed locally */
 #enamad {
     width: 30%;
     height: 100%;
@@ -1185,6 +1282,7 @@ span {
     background-color: white;
 }
 
+/* style for rezayat image where it is addresed locally */
 #rezayat {
     width: 30%;
     height: 100%;
@@ -1195,6 +1293,7 @@ span {
     background-color: white;
 }
 
+/* style for developer's credit */
 #credit {
     width: 100%;
     height: 5%;
@@ -1206,6 +1305,7 @@ span {
 
 }
 
+/* style for credit's comment */
 .credit-comment {
 
     font-size: 14px;
@@ -1213,33 +1313,38 @@ span {
 
 }
 
-
+/* style for header list on hover */
 .header-list:hover {
     color: #fb815e;
 }
 
-
+/* style for vorood icon on top on hover */
 .vorood:hover {
     color: #fb815e;
 }
 
+/* style for  search button hover */
 #search-button:hover {
     background-color: orangered;
 }
 
+/* style for moshahede hame text hover */
 #moshahede-hame:hover {
     color: #fb815e;
 }
 
+/* style for sayere nazarat button hover */
 #sayere-nazarat-botton:hover {
     background-color: orangered;
 }
 
+/* style for service button hover */
 .service-right-button:hover {
     background-color: white;
     color: #1780df;
 }
 
+/* style for footer button hover*/
 .footer-button:hover {
     background-color: white;
     color: #1780df;

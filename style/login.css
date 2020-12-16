@@ -1,19 +1,23 @@
 /* css code for login.html */
+
+/* calibrating the page */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* font */
 * {
-    font-family: BYekan, 'BYekan', tahoma;;
+    font-family: 'Vazir', sans-serif;
 }
 
-
+/* no scroll */
 body {
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
+/* style for the whole container. We want full screen website */
 #whole-container {
     height: 100vh;
     width: 100vw;
@@ -22,6 +26,7 @@ body {
     flex-direction: row-reverse;
 }
 
+/* style for the right side container where we have our logo and headers */
 #right-main-container {
     background-color: #1780df;
     display: flex;
@@ -33,6 +38,7 @@ body {
     padding-top: 10px;
 }
 
+/*  style for the left side container where we have our text bars and bottoms */
 #left-main-container {
     background-color: #f0f0f0;
     height: 100%;
@@ -43,8 +49,8 @@ body {
     align-items: center;
 }
 
+/* This one is for the text covering our text bar . we want it to hide some part of the top border of our text bar so it has absoloute position and some margin which will be given to its text */
 #top-label {
-
     width: 80px;
     height: 20px;
     color: #6e7794;
@@ -60,10 +66,12 @@ body {
 
 }
 
+/* Margin for the top label of the textbar */
 #top-label-text {
     margin-top: 7px;
 }
 
+/* style for container for the right side main logo */
 #logo-container {
 
     width: 61%;
@@ -78,6 +86,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* header for right side welcome */
 #welcome-header {
     color: white;
     font-size: 22px;
@@ -86,6 +95,8 @@ body {
     direction: rtl;
 }
 
+
+/* style for darmankade introduction */
 #introduction {
     color: white;
     font-size: 16px;
@@ -95,6 +106,7 @@ body {
     margin-top: 20px;
 }
 
+/* style for lef header */
 #left-text {
     color: #3b4157;
     font-size: 16px;
@@ -104,6 +116,7 @@ body {
     margin-bottom: 60px;
 }
 
+/* style for phone number text box */
 #phone-text-box {
     background-color: white;
     border: 1px solid #6e7794;
@@ -118,6 +131,7 @@ body {
 }
 
 
+/* style for search bottom */
 #search-button {
     background-color: #fb815e;
     border: 0px;
@@ -136,6 +150,7 @@ body {
 
 }
 
+/* style fore code moaref bottom */
 #code-moarref {
 
     margin-top: 30px;
@@ -150,14 +165,21 @@ body {
     font-size: 14px;
     justify-content: center;
     align-items: center;
+
+
+
+
     padding-top: 14px;
 }
 
+
+/* style fore code moaref hover */
 #code-moarref:hover {
     background-color: #fb815e;
     color: white;
 }
 
+/* the google icon with local address */
 #google-icon {
     font-size: 40px;
     margin-top: 40px;
@@ -167,6 +189,7 @@ body {
     background-size: cover;
 }
 
+/* style for login with google text */
 #google-login-text {
     text-decoration: none;
     margin-top: 10px;
@@ -176,6 +199,13 @@ body {
     color: #1780df;
     font-weight: 700 !important;
 }
+
+/* on hover, google login text will have this style*/
+#google-login-text:hover{
+    color: #fb815e;
+}
+
+
 
 
 
