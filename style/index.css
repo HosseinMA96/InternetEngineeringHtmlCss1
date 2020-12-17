@@ -34,7 +34,7 @@ body {
 .header-logo {
 
 
-    background-image: url(https://www.darmankade.com/_nuxt/img/cd3eac7.svg);
+    background-image: url(../images/darmankade.svg);
     height: 10px;
     width: 80px;
     background-repeat: no-repeat;
@@ -119,13 +119,12 @@ body {
 }
 
 
-/* style for seach section background main div */
+/* style for search section background main div */
 #search-background {
     display: flex;
     width: 100%;
     height: 250px;
-    background-image: url("https://www.darmankade.com/_nuxt/img/5ef8034.png");
-    background-color: lightblue;
+    background-image: url("../images/unvisible.png");
     Background-size: cover;
     background-color: #1780df;
     flex-direction: column;
