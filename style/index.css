@@ -25,18 +25,22 @@ body {
     display: flex;
     flex-direction: row-reverse;
     background-color: white;
-    justify-content: normal;
     justify-content: center;
     align-items: center;
+    padding-right: 100px;
+    height: 110px;
 }
 
-/* style for top header of the website where we have logos and menu */
+/* style for top header of the website where we have logos and menu. Has absolute position */
 .header-logo {
 
-
-    background-image: url(../images/darmankade.svg);
-    height: 10px;
+    position: absolute;
+    top:10px;
+    right: 50px;
+    background-image: url(https://www.darmankade.com/_nuxt/img/cd3eac7.svg);
+    height: 50px;
     width: 80px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 100px;
@@ -56,30 +60,33 @@ body {
 }
 
 
+
 /* style for welcome text */
 #vorood-text {
-    margin-right: 150px;
-    font-size: 15px;
-    background-color: gray;
-    width: 100px;
+
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ededed;
+    width: 50px;
+    height: 40px;
     display: flex;
     flex-direction: row;
-
-
-
-}
-
-
-/* style for vorood div*/
-.vorood {
-    display: flex;
-    flex-direction: row-reverse;
-    background: #ededed;
-    width: 200px;
-    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: #1780df;
-
+    margin-right: 100px;
+    border-radius: 5px;
 }
+
+/*  */
+/* hover for vorood */
+#vorood-text:hover{
+    color: orangered;
+}
+
+
 
 /* style for vorood icon on the top left */
 #vorood-icon {
@@ -88,15 +95,14 @@ body {
     margin-right: 10px;
 
 
-
 }
 
 /* style for div children of the header */
 .header-container > div {
-    padding: 30px;
+
     background-color: white;
     margin: 10px;
-    padding: 20px;
+    padding-right: 40px;
     font-size: 30px;
     display: flex;
 }
@@ -105,11 +111,14 @@ body {
 .header-list {
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 40px;
+
 }
 
 /* style for header top text */
 .header-text {
     font-size: 14px;
+    margin-right: 10px;
 
 }
 
@@ -119,12 +128,13 @@ body {
 }
 
 
-/* style for search section background main div */
+/* style for seach section background main div */
 #search-background {
     display: flex;
     width: 100%;
     height: 250px;
-    background-image: url("../images/unvisible.png");
+    background-image: url("https://www.darmankade.com/_nuxt/img/5ef8034.png");
+    background-color: lightblue;
     Background-size: cover;
     background-color: #1780df;
     flex-direction: column;
@@ -299,7 +309,7 @@ img {
     Background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 769px;
+    top: 789px;
     right: 800px;
 }
 
@@ -312,7 +322,7 @@ img {
 }
 
 /* style for doctors name text*/
-#doctor-name{
+#doctor-name {
     padding-left: 24px;
     font-size: 14px;
 }
@@ -406,7 +416,7 @@ img {
     border-right: 20px solid transparent;
     border-top: 40px solid #e5f2fe;
     position: absolute;
-    top: 1150px;
+    top: 1170px;
     right: 1150px;
 
 }
@@ -419,7 +429,7 @@ img {
     position: absolute;
     color: black;
     right: 1150px;
-    top: 1190px;
+    top: 1210px;
 
 }
 
@@ -497,8 +507,6 @@ img {
     text-decoration: none;
     color: white;
     font-size: 15px;
-
-
 }
 
 /* style for sayere nazarat container  */
@@ -698,7 +706,7 @@ img {
 /* style for download right side container where the images and the following icons reside */
 .download-right-container {
     height: 100%;
-    width: 30%;
+    width: 35%;
 
     margin-right: auto;
     display: flex;
@@ -1348,3 +1356,4 @@ span {
     background-color: white;
     color: #1780df;
 }
+
